@@ -1,4 +1,4 @@
-package com.example.HikeOn.model;
+package com.example.HIkeOn.model;
 
 public enum CustomerGroup {
     HIKEON, CHEF, DEVELOPER, NA

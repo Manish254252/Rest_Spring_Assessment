@@ -1,9 +1,9 @@
-package com.example.HikeOn.service;
+package com.example.HIkeOn.services;
 
-import com.example.HikeOn.model.Customer;
-import com.example.HikeOn.model.Occupation;
-import com.example.HikeOn.model.CustomerGroup;
-import com.example.HikeOn.repository.CustomerRepository;
+import com.example.HIkeOn.model.Customer;
+import com.example.HIkeOn.model.Occupation;
+import com.example.HIkeOn.model.CustomerGroup;
+import com.example.HIkeOn.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

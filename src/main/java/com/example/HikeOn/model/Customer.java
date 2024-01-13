@@ -1,4 +1,4 @@
-package com.example.HikeOn.model;
+package com.example.HIkeOn.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -47,10 +47,8 @@ public class Customer {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (o == null || getClass() != o.getClass())
-            return false;
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
         Customer customer = (Customer) o;
         return Objects.equals(email, customer.email);
     }
