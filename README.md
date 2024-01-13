@@ -47,17 +47,19 @@ The project leverages the Java language and the Spring framework to create a rob
    mvn spring-boot:run
 
 
-
-   API Endpoints
+##API Endpoints
 Save Customer:
 
 Endpoint: POST /api/customers
+
 Payload: JSON data with customer details (name, email, dob, occupation)
 Get All Customers:
 
-Endpoint: GET /api/customers
-Testing
-JUnit tests are included to validate the functionality of the API. Run the tests using:
+
+##Testing
+JUnit tests are included to validate the functionality of the API. 
+
+Run the tests using:
 
 
-mvn test
+      mvn test
